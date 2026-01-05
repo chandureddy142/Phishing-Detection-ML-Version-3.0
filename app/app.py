@@ -18,7 +18,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///phishguard.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-SAFE_BROWSING_API_KEY = "AIzaSyB-sV2_XCYLI3BRdWJt7u1mG-K1_0MWWZU"
+SAFE_BROWSING_API_KEY = "PASTE YOUR API"
 SAFE_BROWSING_URL = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={SAFE_BROWSING_API_KEY}"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
